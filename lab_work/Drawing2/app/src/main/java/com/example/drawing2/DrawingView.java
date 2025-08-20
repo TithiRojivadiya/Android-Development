@@ -22,7 +22,7 @@ class Shape {
         startY = sy;
         endX = ex;
         endY = ey;
-        paint = new Paint(p);
+        paint = new Paint(p); // copy of current paint (includes stroke size, color, style)
     }
 }
 
@@ -33,12 +33,15 @@ public class DrawingView extends View {
     String currentShape = "";
     Paint paint;
 
+    private boolean singleShapeMode = true;
+    private boolean isFill = false;
+
     public DrawingView(Context context, AttributeSet attrs) {
         super(context, attrs);
         paint = new Paint();
         paint.setStyle(Paint.Style.STROKE);
         paint.setColor(Color.BLACK);   // default color
-        paint.setStrokeWidth(5);
+        paint.setStrokeWidth(5);    //default stroke size
     }
 
     public void setShape(String s) {
@@ -58,9 +61,22 @@ public class DrawingView extends View {
         invalidate();
     }
 
+    public void setSingleShapeMode(boolean single) {
+        this.singleShapeMode = single;
+    }
+
+    public void setFill(boolean fill) {
+        this.isFill = fill;
+        if (fill) {
+            paint.setStyle(Paint.Style.FILL_AND_STROKE);
+        } else {
+            paint.setStyle(Paint.Style.STROKE);
+        }
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent e) {
-        if (currentShape.equals("")){
+        if (currentShape.equals("")) {
             return false;
         }
 
@@ -71,6 +87,12 @@ public class DrawingView extends View {
         else if (e.getAction() == MotionEvent.ACTION_UP) {
             endX = e.getX();
             endY = e.getY();
+
+            if (singleShapeMode) {
+                shapes.clear();
+            }
+
+
             shapes.add(new Shape(currentShape, startX, startY, endX, endY, paint));
             invalidate();
         }

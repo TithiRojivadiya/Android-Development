@@ -7,13 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <com.example.drawing2.DrawingView
         android:id="@+id/drawingView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/red"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-16dp" />
 
     <Button
         android:id="@+id/circle"
@@ -93,12 +95,73 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:ems="10"
-        android:text="Enter stroke size "
         android:inputType="number"
+        android:text="Enter stroke size "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/black"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07" />
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/red"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/blue"
+        app:layout_constraintTop_toBottomOf="@+id/black"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/drawingView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/green"
+        app:layout_constraintTop_toTopOf="@+id/drawingView"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="62dp"
+        android:layout_height="48dp"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/strokeSize"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/fillColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill Color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/minus"
+        app:layout_constraintTop_toBottomOf="@+id/strokeSize"
+        app:layout_constraintVertical_bias="0.03" />
 </androidx.constraintlayout.widget.ConstraintLayout>
