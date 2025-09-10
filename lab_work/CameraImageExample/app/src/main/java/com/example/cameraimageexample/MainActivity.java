@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap pic = (Bitmap) data.getExtras().get("data");
                 imgCapture.setImageBitmap(pic);
                 MediaStore.Images.Media.insertImage(getContentResolver(),pic,"Image","Image info");
-            } else if (resultCode == RESULT_CANCELED) {
+            }
+            else if (resultCode == RESULT_CANCELED) {
                 Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show();
             }
         }

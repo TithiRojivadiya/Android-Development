@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5c9a8d4-c31a-412a-b10d-b22eb508e6a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Sharedpref2/app/src/main/java/com/example/sharedpref/LoadingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sharedpref2/app/src/main/res/drawable/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sharedpref2/app/src/main/res/layout/activity_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/CameraImageExample/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/androidTest/java/com/example/fragments/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/java/com/example/fragments/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/app/src/test/java/com/example/fragments/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/Fragments/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/androidTest/java/com/example/mysplashscreen/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/java/com/example/mysplashscreen/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/java/com/example/mysplashscreen/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/app/src/test/java/com/example/mysplashscreen/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_work/MySplashScreen/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Internal Storage/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/Internal Storage/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Internal Storage/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/Internal Storage/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sharedpref2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharedpref2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sharedpref2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharedpref2/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sharedpref2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharedpref2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sharedpref2/app/src/main/java/com/example/sharedpref/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharedpref2/app/src/main/java/com/example/sharedpref/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sharedpref2/app/src/main/java/com/example/sharedpref/validateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharedpref2/app/src/main/java/com/example/sharedpref/validateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sharedpref2/app/src/main/res/layout/validate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharedpref2/app/src/main/res/layout/validate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_work/CameraImageExample/app/src/main/java/com/example/cameraimageexample/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_work/CameraImageExample/app/src/main/java/com/example/cameraimageexample/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_work/Drawing2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_work/Drawing2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TithiRojivadiya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TithiRojivadiya/Android-Development.git&quot;,
+    &quot;accountId&quot;: &quot;a280c8df-c9fc-4554-900b-e64fe0e7495d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="32THaNF2x2Eyc6nyA8rnuqhEQSb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Android-Development/SharedPref&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5c9a8d4-c31a-412a-b10d-b22eb508e6a0" name="Changes" comment="" />
+      <created>1757437705018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757437705018</updated>
+    </task>
+    <servers />
+  </component>
+</project>

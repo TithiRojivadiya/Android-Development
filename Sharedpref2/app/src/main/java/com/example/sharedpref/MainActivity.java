@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     EditText uname, pwd;
     Button loginBtn;
     SharedPreferences pref;
-    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,13 +24,6 @@ public class MainActivity extends AppCompatActivity {
         loginBtn = findViewById(R.id.btnLogin);
 
         pref = getSharedPreferences("user_details", MODE_PRIVATE);
-        intent = new Intent(MainActivity.this, validateActivity.class);
-
-        // Auto-login if credentials exist
-        if (pref.contains("username") && pref.contains("password")) {
-            startActivity(intent);
-            finish(); // Optional: finish this activity so user can't go back to login screen
-        }
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,18 +32,15 @@ public class MainActivity extends AppCompatActivity {
                 String password = pwd.getText().toString().trim();
 
                 if (username.equals("admin") && password.equals("admin")) {
-                    SharedPreferences.Editor editor = pref.edit();
-                    editor.putString("username", username);
-                    editor.putString("password", password);
-                    editor.apply(); // use apply() for async commit
-
-                    Toast.makeText(getApplicationContext(), "Login Successful", Toast.LENGTH_SHORT).show();
-                    startActivity(intent);
-                    finish(); // Optional
+                    Intent i = new Intent(MainActivity.this, LoadingActivity.class);
+                    i.putExtra("username", username); // pass username
+                    startActivity(i);
+                    finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "Credentials are not valid", Toast.LENGTH_SHORT).show();
                 }
             }
         });
+
     }
 }
